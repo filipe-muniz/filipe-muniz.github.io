@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100vh;
+  margin-left: 30%;
+}
+
+.container {
+  text-align: left;
+  padding: 20px;
+}
+
+.info ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.info li a {
+  margin-right: 10px;
+  color: green;
+
+}
+
+.projects ul {
+  flex-direction: column;
+}
+
+.projects li {
+  display: block;
+
+  color: green;
+  flex-direction: column;
+}
